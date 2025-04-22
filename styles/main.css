@@ -7,6 +7,10 @@
 
 
 /* ====================================================GENERAL======================================================== */
+html {
+    font-size: 10px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     display: grid;
@@ -15,13 +19,13 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 700;
     margin: 0;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 600;
     margin: 0;
 }
@@ -33,10 +37,10 @@ header {
     background-color: #fafafa;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     z-index: 1;
 }
 
@@ -45,7 +49,7 @@ header {
 .top {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    row-gap: 30px;
+    row-gap: 3rem;
 }
 
 .search {
@@ -55,21 +59,21 @@ header {
 }
 
 .search img {
-    height: 32px;
-    width: 32px;
+    height: 3.2rem;
+    width: 3.2rem;
 }
 
 .search input {
     border: none;
     background-color: #bdbdbd;
     color: #ffffff;
-    padding: 10px;
-    font-size: 24px;
+    padding: 1rem;
+    font-size: 2.4rem;
     font-weight: 400;
-    border-radius: 12px;
+    border-radius: 1.2rem;
     width: 80%;
     flex-shrink: 1;
-    margin-left: 30px;
+    margin-left: 3rem;
 }
 
 .user {
@@ -80,15 +84,15 @@ header {
 }
 
 .user img:first-child {
-    height: 32px;
-    width: 32px;
-    padding: 20px;
+    height: 3.2rem;
+    width: 3.2rem;
+    padding: 2rem;
 }
 
 .user-image {
-    height: 64px;
-    width: 64px;
-    padding: 20px;
+    height: 6.4rem;
+    width: 6.4rem;
+    padding: 2rem;
     border-radius: 50%;
 }
 
@@ -97,23 +101,23 @@ header {
 .bottom {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 
 .bottom-left {
     display: flex;
     align-items: center;
-    gap: 20px
+    gap: 2rem;
 }
 
 .bottom img {
-    height: 128px;
-    width: 128px;
+    height: 12.8rem;
+    width: 12.8rem;
     border-radius: 50%;
 }
 
 .hero-text p {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 700;
     margin: 0;
 }
@@ -122,19 +126,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 40px;
+    gap: 4rem;
 }
 
 .bottom-right button {
     border: none;
     background-color: #0288d1;
     color: #ffffff;
-    border-radius: 32px;
-    font-size: 24px;
+    border-radius: 3.2rem;
+    font-size: 2.4rem;
     font-weight: 700;
     text-align: center;
-    width: 150px;
-    padding: 20px;
+    width: 15rem;
+    padding: 2rem;
 }
 
 
@@ -143,42 +147,42 @@ header {
 .sidebar {
     background-color: #0288d1;
     color: white;
-    padding: 20px;
+    padding: 2rem;
     min-height: 100vh;
     margin: 0;
 }
 
 .sidebar .dashboard-icon {
-    width: 72px;
-    height: 72px;
+    width: 7.2rem;
+    height: 7.2rem;
     filter: invert(1);
 }
 
 .sidebar .dashboard-heading {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 2rem;
 }
 
 nav img {
-    width: 32px;
-    height: 32px;
+    width: 3.2rem;
+    height: 3.2rem;
     filter: invert(1);
 }
 
 a {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 3rem;
     text-decoration: none;
     color: white;
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 700;
 }
 
 .general-nav {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .user-control {
@@ -188,44 +192,44 @@ a {
 
 .general-nav li,
 .user-control li {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
 }
 
 /* =================================================CONTENT=============================================== */
 .content {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 40px;
-    margin-right: 20px;
-    column-gap: 40px;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    column-gap: 4rem;
 }
 
 .projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 40px;
-    margin-top: 20px;
+    gap: 4rem;
+    margin-top: 2rem;
 }
 
 .projects article {
     display: flex;
     flex-direction: column;
-    border-left: orange solid 15px;
+    border-left: orange solid 1.5rem;
     background-color: #fafafa;
-    min-width: 300px;
-    min-height: 300px;
-    border-radius: 20px;
-    padding: 30px
+    min-width: 30rem;
+    min-height: 30rem;
+    border-radius: 2rem;
+    padding: 3rem;
 }
 
 .project-title {
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 
 }
 
@@ -234,67 +238,67 @@ a {
 }
 
 .projects article p:nth-child(2) {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 400;
     color: #616161;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .actions {
     display: flex;
     justify-content: flex-end;
     margin-top: auto;
-    gap: 40px;
+    gap: 4rem;
 }
 
 article img {
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
 }
 
 /* =====================================================NEWS=================================================== */
 .news {
     display: flex;
     flex-direction: column;
-    gap: 40px
+    gap: 4rem;
 }
 
 .news article {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: #fafafa;
-    border-radius: 20px;
-    padding: 30px;
-    min-width: 200px;
-    min-height: 460px;
+    border-radius: 2rem;
+    padding: 3rem;
+    min-width: 20rem;
+    min-height: 48rem;
 }
 
 .news article img {
-    width: 72px;
-    height: 72px;
-    border: #bdbdbd solid 1px;
+    width: 7.2rem;
+    height: 7.2rem;
+    border: #bdbdbd solid 0.1rem;
     border-radius: 50%;
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 .news article h3 {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 .news article p {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
     color: #616161;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 .news .trending-item{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 1rem;
 }
 
 /* overide the h3 weight for thi one */
@@ -304,5 +308,5 @@ article img {
 
 /* +++++++++++++++ all articles box shadow ++++++++++++++++*/
 article{
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.1);
 }
